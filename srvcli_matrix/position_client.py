@@ -28,7 +28,7 @@ def main():
     rclpy.init()
 
     minimal_client = MinimalClientAsync()
-    future = minimal_client.send_request(int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4]),int(sys.argv[5]))
+    future = minimal_client.send_request(float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3]), float(sys.argv[4]),float(sys.argv[5]))
     rclpy.spin_until_future_complete(minimal_client, future)
     response = future.result()
     minimal_client.get_logger().info(
