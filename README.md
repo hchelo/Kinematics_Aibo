@@ -7,7 +7,7 @@ $M = R_x(th_1) \cdot R_y(th_2) \cdot T_z(-L1) \cdot R_y(th_3) \cdot T_z(-L2)$
 Where Rx and Ry are the homogeneous rotation matrices corresponding to their respective axes (variables 1, 2, and 3 are the inputs), and the lengths are constants with values 
 L1=69.5 y L2=71.5 (distance from elbow to the robot's paw).
 
-![Configuration Diagram](https://github.com/hchelo/Kinematics_Aibo/img/perruno.png)
+![Configuration Diagram]([https://github.com/hchelo/Kinematics_Aibo/img/perruno.png](https://github.com/hchelo/Kinematics_Aibo/blob/main/img/perruno.png))
 
 It is required to develop a ROS2 program that:
 
