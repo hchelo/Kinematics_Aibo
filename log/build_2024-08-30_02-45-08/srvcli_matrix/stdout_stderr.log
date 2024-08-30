@@ -1,0 +1,39 @@
+running egg_info
+creating build/srvcli_matrix/srvcli_matrix.egg-info
+writing build/srvcli_matrix/srvcli_matrix.egg-info/PKG-INFO
+writing dependency_links to build/srvcli_matrix/srvcli_matrix.egg-info/dependency_links.txt
+writing entry points to build/srvcli_matrix/srvcli_matrix.egg-info/entry_points.txt
+writing requirements to build/srvcli_matrix/srvcli_matrix.egg-info/requires.txt
+writing top-level names to build/srvcli_matrix/srvcli_matrix.egg-info/top_level.txt
+writing manifest file 'build/srvcli_matrix/srvcli_matrix.egg-info/SOURCES.txt'
+reading manifest file 'build/srvcli_matrix/srvcli_matrix.egg-info/SOURCES.txt'
+writing manifest file 'build/srvcli_matrix/srvcli_matrix.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix
+copying srvcli_matrix/position_client.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix
+copying srvcli_matrix/__init__.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix
+copying srvcli_matrix/position_service.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix
+running install
+running install_lib
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix
+copying /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix/position_client.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix
+copying /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix/__init__.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix
+copying /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/build/lib/srvcli_matrix/position_service.py -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix
+byte-compiling /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix/position_client.py to position_client.cpython-310.pyc
+byte-compiling /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix/position_service.py to position_service.cpython-310.pyc
+running install_data
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/share/ament_index
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/share/ament_index/resource_index
+creating /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/share/ament_index/resource_index/packages
+copying resource/srvcli_matrix -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/share/ament_index/resource_index/packages
+copying package.xml -> /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/share/srvcli_matrix
+running install_egg_info
+Copying build/srvcli_matrix/srvcli_matrix.egg-info to /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/python3.10/site-packages/srvcli_matrix-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pos_client script to /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/srvcli_matrix
+Installing pos_server script to /home/kubu/ROS2/ros2_ws/src/srvcli_matrix/install/srvcli_matrix/lib/srvcli_matrix
+writing list of installed files to '/home/kubu/ROS2/ros2_ws/src/srvcli_matrix/build/srvcli_matrix/install.log'

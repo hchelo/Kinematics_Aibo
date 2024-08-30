@@ -1,0 +1,4 @@
+[console_scripts]
+pos_client = srvcli_matrix.position_client:main
+pos_server = srvcli_matrix.position_service:main
+
