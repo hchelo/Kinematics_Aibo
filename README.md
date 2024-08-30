@@ -1,4 +1,4 @@
-# Forward_kinematics_legg_Aibo
+# Forward kinematics legg Aibo
 
 The SONY AIBO ERS-7 robot uses the following configuration to obtain the forward kinematics of each of its limbs:
 
@@ -20,8 +20,11 @@ Th1=0∘ , Th2=0∘ , Th3=0∘
 Th1=20∘ , Th2=45∘ , Th3=10∘
 Th1=10∘ , Th2=−30∘ , Th3=25∘
 
-Sample:
+#Sample:
+ 
     Server:     ros2 run srvcli_matrix pos_server 
+    
     Client:     ros2 run srvcli_matrix pos_client 0 0 0 65 75
+
 
 Do not forget the arguments after the client command ("pos_client 0 0 0 65 75").
