@@ -1,0 +1,12 @@
+# Ignorar carpetas generadas por catkin_make
+build/
+devel/
+
+# Ignorar carpetas generadas por colcon
+install/
+log/
+
+# Otros archivos y carpetas a ignorar
+*.log
+*.tmp
+
